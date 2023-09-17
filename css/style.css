@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}
+nav{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 20px 15px;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 7px;
+    transition-duration: 500ms;
+}
+nav li a:hover{
+    background-color: white;
+    color: black;
+}
+#search-bar input{
+    background-color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+#search-bar{
+    display: flex;
+    align-items: center;
+}
+#search-bar img {
+    cursor: pointer;
+}
+#btn{
+    padding: 10px 20px;
+    background-color: green;
+}
+#AddingNotes{
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1.5px solid gray;
+    height: 370px;
+    padding: 30px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+#AddingNotes button{
+    background-color: blue;
+    padding: 10px 15px;
+    width: 20%;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#addTxt{
+    padding: 10px;
+}
+hr{
+    width: 75%;
+    margin: 30px auto;
+}
+.notes{
+    width: 75%;
+    margin: 20px auto;
+}
+
+
+
+
